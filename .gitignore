@@ -1,0 +1,15 @@
+# പെർഫോമൻസിനും സ്റ്റോറേജിനും വേണ്ടി ഒഴിവാക്കുന്നവ
+node_modules/
+
+# സുരക്ഷാ കാരണങ്ങളാൽ (Secret Keys, DB URL) ഒഴിവാക്കുന്നവ
+.env
+
+# ലോഗ് ഫയലുകൾ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# സിസ്റ്റം ഫയലുകൾ
+.DS_Store
+dist/
+build/
